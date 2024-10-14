@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - SVS Sathish</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Sathish</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SaraVenkataSaiSathish.pdf">My Resume</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"><a href="#contact" style="text-decoration: none; color: white;">Contact</a></button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <div class="col-10 col-md-6 text-center text-md-start"  >
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">SVS Sathish</span>
+          </h2>
+          <p class="text-muted">
+            Seeking a challenging role in software development where I can apply my skills in 
+            full-stack web development, problem-solving, and coding to build impactful solutions. 
+            
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a
+              href="SaraVenkataSaiSathish.pdf"
+             
+              style="text-decoration: none;color: #fff;"
+              >Resume</a
+            >
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/profile.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="skills">
+      <center><h2>MY SKILLS</h2></center>
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-10 skill-with-progress">
+          <div class="row justify-content-evenly">
+            <!-- First Row of 5 Skills -->
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress c">
+                  <span class="progress-value c-progress">90%</span>
+                </div>
+                <br />
+                <span class="text">C</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress cpp">
+                  <span class="progress-value cpp-progress">50%</span>
+                </div>
+                <br />
+                <span class="text">C++</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress python">
+                  <span class="progress-value python-progress">80%</span>
+                </div>
+                <br />
+                <span class="text">Python</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress java">
+                  <span class="progress-value java-progress">80%</span>
+                </div>
+                <br />
+                <span class="text">Java</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">75%</span>
+                </div>
+                <br />
+                <span class="text">ReactJS</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <!-- Second Row of 5 Skills -->
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress expressjs">
+                  <span class="progress-value expressjs-progress">75%</span>
+                </div>
+                <br />
+                <span class="text">ExpressJS</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress nodejs">
+                  <span class="progress-value nodejs-progress">70%</span>
+                </div>
+                <br />
+                <span class="text">NodeJS</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress mongodb">
+                  <span class="progress-value mongodb-progress">75%</span>
+                </div>
+                <br />
+                <span class="text">MongoDB</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress sql">
+                  <span class="progress-value sql-progress">80%</span>
+                </div>
+                <br />
+                <span class="text">SQL</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress sql">
+                  <span class="progress-value sql-progress">80%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          <div class="row justify-content-evenly mt-4">
+            <!-- Third Row with Remaining 3 Skills -->
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-css-progress">90%</span>
+                </div>
+                <br />
+                <span class="text">HTML , CSS</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress dsa">
+                  <span class="progress-value dsa-progress">60%</span>
+                </div>
+                <br />
+                <span class="text">DSA</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress git">
+                  <span class="progress-value git-progress">60%</span>
+                </div>
+                <br />
+                <span class="text">Git</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress oops">
+                  <span class="progress-value oops-progress">85%</span>
+                </div>
+                <br />
+                <span class="text">OOPs</span>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress communication">
+                  <span class="progress-value communication-progress">80%</span>
+                </div>
+                <br />
+                <span class="text">Communication</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="portfolio" id="projects">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check out My Projects</h3>
+      </div>
+    
+      <div id="myBtnContainer" class="text-center mt-4">
+        <button class="filter-item" data-filter="all">EJS</button>
+        <button class="filter-item" data-filter="game">Game</button>
+        <button class="filter-item" data-filter="webapp">MERN</button>
+        <button class="filter-item" data-filter="website">Website</button>
+      </div>
+      
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <!-- Project 1 -->
+          <div class="post col-md-6 game all col-10 mt-3 mt-md-0">
+            <div class="card">
+              <img src="images/Nexus.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Nexus</h4>
+                <span class="badge bg-secondary badge-pill">EJS & CSS</span>
+                <span class="badge bg-secondary badge-pill">ExpressJS & NodeJS</span>
+                <span class="badge bg-secondary badge-pill">MongoDB</span><br />
+                <a href="https://github.com/sathishsara1/Nexus_dbms" class="link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="post col-md-6 website all col-10 mt-3 mt-md-0">
+            <div class="card">
+              <img src="images/Juditech.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Juditech</h4>
+                <span class="badge bg-secondary badge-pill">MERN</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+                <a href="https://github.com/sathishsara1/juditech" class="read-more-btn link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 3 -->
+          <div class="post col-md-6 website all col-10 mt-3 mt-md-0">
+            <div class="card">
+              <img src="portfolio.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Portfolio</h4>
+                <span class="badge bg-secondary badge-pill">HTML & CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+                <a href="https://github.com/sathishsara1/Portfolio" class="read-more-btn link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 4 -->
+          <div class="post col-md-6 webapp all col-10 mt-3 mt-md-0">
+            <div class="card">
+              <img src="CodeClimb.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">CodeClimb</h4>
+                <span class="badge bg-secondary badge-pill">MERN</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill">Game</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span><br />
+                <a href="https://github.com/sathishsara1/CodeClimb-Client" class="read-more-btn link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="testimonial mt-5 pt-5" id="certifications" style="position: relative; top: -50px;">
+      <div class="row justify-content-evenly">
+        <center><h2>My Certifications</h2></center>
+        <div class="col-md-4 col-10" style="display: flex; justify-content: center; align-items: center;">
+          <img src="images/certifications.png" class="img-fluid" alt=""/>
+        </div>
+        <div class="col-md-6 col-10 mt-5" >
+          <div class="heading">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Participated in IEEE 16.0, showcasing technical skills and innovation in a 
+                        competitive global environment. Achieved a global rank of 1627 and an Indian 
+                        rank of 542, demonstrating proficiency in complex problem-solving. 
+                      </p>
+                      <h5>IEEE</h5>
+                      <a href="iEEE_17.0.pdf" style="text-decoration: none;">Certificate</a>
+                      <!-- <small class="fs-6 text-muted">CEO of Company</small> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Achieved Cisco PCAP certification, enhancing expertise in Python programming. 
+                        Demonstrated strong foundational skills and practical knowledge in Python-based projects.
+                      </p>
+                      <h5>Cisco Netacad</h5>
+                      <a href="pcap.pdf" style="text-decoration: none;">Certificate</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Participated in IEEE 17.0, showcasing technical skills and innovation in a 
+                        competitive global environment. Achieved a global rank of 1209 and an Indian 
+                        rank of 231, demonstrating proficiency in complex problem-solving. 
+                      </p>
+                      <h5>Cisco Netacad</h5>
+                      <a href="iEEE_16.0.pdf" style="text-decoration: none;">Certificate</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Python Intern at CodeSpeedy Technologies pvt Ltd - 
+                        Assisting in the design and implementation of Python-based software modules, 
+                        contributing to the development of scalable and efficient applications
+                      </p>
+                      <h5>CodeSpeedy</h5>
+                      <a href="CodeSpeedy.pdf" style="text-decoration: none;">Certificate</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" >
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-mortarboard"></i>
+            </div>
+            <div class="col-11">
+              <p>MVGR College of Engineering(A)
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 9059891007</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>sathishsara1007@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" >
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4">Sara Venkata Sai Sathish</h3>
+      <div class="link-group mt-5" >
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#skills">Skills</a>
+        <div class="vr"></div>
+        <a href="#projects">Projects</a>
+        <div class="vr"></div>
+        <a href="#certifications">Certifications</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+        <div class="vr"></div>
+        <a href="SaraVenkataSaiSathish.pdf">Resume</a>
+      </div>
+        <div class="social-links mt-5">
+          <button onclick="window.location.href='https://www.linkedin.com/in/sathish-svs-5b062423b/'" class="rounded-pill linkedin">
+            <i class="bi bi-linkedin"></i>
+          </button>
+          <button onclick="window.location.href='https://www.instagram.com/_sathish_sara/'" class="rounded-pill instagram">
+            <i class="bi bi-instagram"></i>
+          </button>
+
+          <button onclick="window.location.href='https://github.com/sathishsara1'" class="rounded-pill github">
+            <i class="bi bi-github"></i>
+          </button>
+
+          <button onclick="window.location.href='https://leetcode.com/u/sathishsara/'" class="rounded-pill leetcode">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" style="width: 24px;" />
+          </button>
+
+        </div>
+        
+      <hr class="text-muted my-4" />
+
+      <p>SVS Sathish &copy; 2024 | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
